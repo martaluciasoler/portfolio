@@ -5,8 +5,8 @@
     "description": "Web grupal para presentar a las integrantes del equipo de trabajo de Adalab.",
     "languajes": ["HTML", "CSS", "SASS"],
     "image": "./images/power.png",
-    "webURL": "http://beta.adalab.es/project-promo-j-module-1-team-8/",
-    "githubURL": "https://github.com/martaluciasoler/project-promo-j-module-1-team-8"
+    "webURL": "https://martaluciasoler.github.io/PowerFrontend/",
+    "githubURL": "https://github.com/martaluciasoler/PowerFrontend"
   },
   {
     "id": "final_module1",
@@ -14,8 +14,8 @@
     "description": "Web individual maquetada según diseño dado por Zeplin.",
     "languajes": ["HTML", "CSS", "SASS"],
     "image": "./images/animous.png",
-    "webURL": "http://beta.adalab.es/modulo-1-evaluacion-final-martaluciasoler/",
-    "githubURL": "https://github.com/martaluciasoler/modulo-1-evaluacion-final-martaluciasoler"
+    "webURL": "https://martaluciasoler.github.io/anonimousProxy/",
+    "githubURL": "https://github.com/martaluciasoler/anonimousProxy"
   },
   {
     "id": "project2",
@@ -23,8 +23,8 @@
     "description": "Web iteractica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon.",
     "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
     "image": "./images/villains.jpg",
-    "webURL": "http://beta.adalab.es/project-j-module-2-team-7/",
-    "githubURL": "https://github.com/martaluciasoler/project-j-module-2-team-7"
+    "webURL": "https://martaluciasoler.github.io/Adavillains/",
+    "githubURL": "https://github.com/martaluciasoler/Adavillains"
   },
   {
     "id": "intermediate_module2",
@@ -32,8 +32,8 @@
     "description": "Web que contiene un juego de adivinar el número del 1-100 con pistas y contador de errores.",
     "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
     "image": "./images/module-2-intermedia.png",
-    "webURL": "https://martaluciasoler.github.io/modulo-2-evaluacion-intermedia-martaluciasoler/",
-    "githubURL": "https://martaluciasoler.github.io/modulo-2-evaluacion-intermedia-martaluciasoler/"
+    "webURL": "https://martaluciasoler.github.io/adivina-el-numero/",
+    "githubURL": "https://github.com/martaluciasoler/adivina-el-numero"
   },
   {
     "id": "final_module2",
@@ -41,8 +41,8 @@
     "description": "Web que recoge información personas de una API y permite guardar favoritos.",
     "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
     "image": "./images/friends",
-    "webURL": "http://beta.adalab.es/modulo-2-evaluacion-final-bis-martaluciasoler/",
-    "githubURL": "https://github.com/martaluciasoler/modulo-2-evaluacion-final-bis-martaluciasoler"
+    "webURL": "https://martaluciasoler.github.io/Friends/",
+    "githubURL": "https://github.com/martaluciasoler/Friends"
   },
   {
     "id": "intermediate_module3",
@@ -50,8 +50,8 @@
     "description": "Web en react que muestra una serie de pokemons",
     "languajes": ["HTML", "CSS", "SASS", "React.JS"],
     "image": "./images/pokemon.png",
-    "webURL": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-martaluciasoler/",
-    "githubURL": "https://github.com/martaluciasoler/modulo-3-evaluacion-intermedia-martaluciasoler"
+    "webURL": "https://martaluciasoler.github.io/pokemon-hazteConTodos/",
+    "githubURL": "https://github.com/martaluciasoler/pokemon-hazteConTodos"
   },
   {
     "id": "final_module3",
@@ -59,8 +59,8 @@
     "description": "Web realizada con react y ambientada en Rick y Morty que consulta una API y permite realizar búsquedas eligiendo diferentes filtros.",
     "languajes": ["HTML", "CSS", "SASS", "React.JS"],
     "image": "./images/rick.png",
-    "webURL": "http://beta.adalab.es/modulo-3-evaluacion-final-martaluciasoler/#/",
-    "githubURL": "https://github.com/martaluciasoler/modulo-3-evaluacion-final-martaluciasoler"
+    "webURL": "https://martaluciasoler.github.io/Rick-Morty/#/",
+    "githubURL": "https://github.com/martaluciasoler/Rick-Morty"
   },
   {
     "id": "project3",

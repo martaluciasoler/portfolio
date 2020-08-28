@@ -6,7 +6,7 @@ class Project extends React.Component {
     return (
       <div className="poke-item">
         <div>
-          <img src={this.props.image} alt={this.props.name} width="400px" />
+          <img src={this.props.images} alt={this.props.name} width="400px" />
         </div>
         <a href={this.props.webURL}>{this.props.name}</a>
         <p>{this.props.description}</p>
