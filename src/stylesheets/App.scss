@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tittle {
+  font-size: 50px;
+}
+
+.span {
+  font-size: 50px;
+}
+.poke-item {
+  width: 250px;
+  height: 250px;
+}
+
+.pokes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
