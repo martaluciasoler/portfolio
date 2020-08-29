@@ -9,6 +9,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
+        <h2 className="tittle">PROYECTOS</h2>
         <ProjectList projects={projects} />
       </div>
     );

@@ -20,9 +20,9 @@
   {
     "id": "project2",
     "name": "AdaVillains",
+    "image": "./images/villains.png",
     "description": "Web iteractica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon.",
     "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
-    "image": "./images/villains.jpg",
     "webURL": "https://martaluciasoler.github.io/Adavillains/",
     "githubURL": "https://github.com/martaluciasoler/Adavillains"
   },
@@ -31,7 +31,7 @@
     "name": "Adivina el número",
     "description": "Web que contiene un juego de adivinar el número del 1-100 con pistas y contador de errores.",
     "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
-    "image": "./images/module-2-intermedia.png",
+    "image": "./images/adivina.png",
     "webURL": "https://martaluciasoler.github.io/adivina-el-numero/",
     "githubURL": "https://github.com/martaluciasoler/adivina-el-numero"
   },
@@ -40,7 +40,7 @@
     "name": "Mis Amigos",
     "description": "Web que recoge información personas de una API y permite guardar favoritos.",
     "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
-    "image": "./images/friends",
+    "image": "./images/friends.png",
     "webURL": "https://martaluciasoler.github.io/Friends/",
     "githubURL": "https://github.com/martaluciasoler/Friends"
   },

@@ -1,11 +1,43 @@
-.pokemon__title {
-  height: 30px;
-  width: 135px;
-  margin-left: 60px;
-}
-.types {
-  color: blue;
-}
-.image {
-  margin-top: 30px;
+.project {
+  text-decoration: none;
+  width: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  .container {
+    background-color: grey;
+    border-radius: 50px;
+  }
+
+  .marco {
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  &__image {
+    height: 180px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+  &__name {
+    color: chartreuse;
+  }
+  &__github {
+    color: chartreuse;
+  }
+  &__languajes {
+    color: chartreuse;
+  }
 }

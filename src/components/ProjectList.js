@@ -6,7 +6,7 @@ class ProjectList extends React.Component {
   render() {
     const result = this.props.projects.map((project) => {
       return (
-        <div className="poke" key={project.id}>
+        <div className="listItem" key={project.id}>
           <Project
             name={project.name}
             languajes={project.languajes}
