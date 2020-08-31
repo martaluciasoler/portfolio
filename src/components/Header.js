@@ -40,7 +40,8 @@ class Header extends React.Component {
               alegrías e ilusión.Ayudame a escribir mi propia historia.
             </p>
             <div className="bio__scrool">
-              <a href="contacto" tittle={this.props.tittle}>
+              <h3 className="bio__contactoInfo">CONTACTO</h3>
+              <a href="#contacto" tittle={this.props.tittle}>
                 <img className="bio__img" src={mano} />
               </a>
             </div>
