@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "./images/github.png",
+    "tittle": "Github",
+    "href": "https://github.com/martaluciasoler"
+  },
+  {
+    "icon": "./images/linkedin-logo.png",
+    "tittle": "Linkedin",
+    "href": "https://www.linkedin.com/in/martalucíasoler/"
+  },
+  {
+    "icon": "./images/email.png",
+    "tittle": "Email",
+    "href": "mailto:martadalaber@gmail.com"
+  }
+]

@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from './Header';
 import projects from '../data/projects.json';
+import infoContact from '../data/infoContact.json';
 import ProjectList from './ProjectList';
+import Contact from './Contact';
 import '../stylesheets/App.scss';
 
 class App extends React.Component {
@@ -9,8 +11,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <h2 className="tittle">PROYECTOS</h2>
-        <ProjectList projects={projects} />
+        <main>
+          <h2 className="tittle">PROYECTOS</h2>
+          <ProjectList projects={projects} />
+          <Contact infoContact={infoContact} />
+        </main>
       </div>
     );
   }

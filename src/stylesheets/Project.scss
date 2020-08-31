@@ -1,7 +1,7 @@
 .project {
   text-decoration: none;
   width: 250px;
-  padding: 15px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,15 +9,16 @@
   color: white;
 
   .container {
-    background-color: grey;
-    border-radius: 50px;
+    background-color: rgb(83, 82, 82);
+    border-radius: 20px;
+    padding: 10px;
   }
 
   .marco {
     background-color: rgb(36, 35, 35);
     display: flex;
     border-radius: 20px;
-    padding: 10px;
+    padding: px;
     flex-direction: column;
   }
 
@@ -26,18 +27,26 @@
     border-radius: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+    padding: 10px;
 
     &:hover {
       transform: scale(1.03);
     }
   }
   &__name {
-    color: chartreuse;
+    color: rgb(59, 220, 128);
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 20px;
+    margin-top: 10px;
   }
   &__github {
-    color: chartreuse;
+    color: rgb(59, 220, 128);
   }
-  &__languajes {
-    color: chartreuse;
+  &__technologies {
+    color: rgb(223, 251, 97);
+    display: flex;
+    grid-row-gap: 1px;
+    grid-column-gap: 9px;
+    justify-content: center;
   }
 }

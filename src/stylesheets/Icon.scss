@@ -1,0 +1,20 @@
+.contact {
+  background-color: rgb(83, 82, 82);
+  border-radius: 10px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 50px;
+  display: flex;
+  border: 1px solid rgb(59, 220, 128);
+  &:hover {
+    transform: scale(1.05);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 5px 5x rgb(59, 220, 128);
+    -webkit-box-shadow: 0px 0px 5px 5px rgb(35, 101, 63);
+  }
+  &__img {
+    width: 30px;
+    padding: 10px;
+  }
+}

@@ -3,6 +3,11 @@ import '../stylesheets/Project.scss';
 
 class Project extends React.Component {
   render() {
+    const technologiesList = this.props.technologies.map(
+      (tecnologie, index) => {
+        return <h4 key={index}>{tecnologie}</h4>;
+      }
+    );
     return (
       <li className="project">
         <div className="container">
@@ -17,10 +22,10 @@ class Project extends React.Component {
             />
           </div>
           <p>{this.props.description}</p>
+          <div className="project__technologies">{technologiesList}</div>
           <a className="project__github" href={this.props.githubURL}>
-            Visítame en Github
+            CÓDIGO
           </a>
-          <p className="project__languajes">{this.props.languajes}</p>
         </div>
       </li>
     );

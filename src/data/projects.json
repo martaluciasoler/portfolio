@@ -3,7 +3,7 @@
     "id": "project1",
     "name": "Power FrontEnd",
     "description": "Web grupal para presentar a las integrantes del equipo de trabajo de Adalab.",
-    "languajes": ["HTML", "CSS", "SASS"],
+    "technologies": ["HTML", "CSS", "SASS"],
     "image": "./images/power.png",
     "webURL": "https://martaluciasoler.github.io/PowerFrontend/",
     "githubURL": "https://github.com/martaluciasoler/PowerFrontend"
@@ -12,7 +12,7 @@
     "id": "final_module1",
     "name": "Anonimous Proxy",
     "description": "Web individual maquetada según diseño dado por Zeplin.",
-    "languajes": ["HTML", "CSS", "SASS"],
+    "technologies": ["HTML", "CSS", "SASS"],
     "image": "./images/animous.png",
     "webURL": "https://martaluciasoler.github.io/anonimousProxy/",
     "githubURL": "https://github.com/martaluciasoler/anonimousProxy"
@@ -22,7 +22,7 @@
     "name": "AdaVillains",
     "image": "./images/villains.png",
     "description": "Web iteractica que permite la creación de tarjeta de visitas personalizadas ambientada en Sailor Moon.",
-    "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "technologies": ["HTML", "CSS", "SASS", "JavaScript"],
     "webURL": "https://martaluciasoler.github.io/Adavillains/",
     "githubURL": "https://github.com/martaluciasoler/Adavillains"
   },
@@ -30,7 +30,7 @@
     "id": "intermediate_module2",
     "name": "Adivina el número",
     "description": "Web que contiene un juego de adivinar el número del 1-100 con pistas y contador de errores.",
-    "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "technologies": ["HTML", "CSS", "SASS", "JavaScript"],
     "image": "./images/adivina.png",
     "webURL": "https://martaluciasoler.github.io/adivina-el-numero/",
     "githubURL": "https://github.com/martaluciasoler/adivina-el-numero"
@@ -39,7 +39,7 @@
     "id": "final_module2",
     "name": "Mis Amigos",
     "description": "Web que recoge información personas de una API y permite guardar favoritos.",
-    "languajes": ["HTML", "CSS", "SASS", "JavaScript"],
+    "technologies": ["HTML", "CSS", "SASS", "JavaScript"],
     "image": "./images/friends.png",
     "webURL": "https://martaluciasoler.github.io/Friends/",
     "githubURL": "https://github.com/martaluciasoler/Friends"
@@ -48,7 +48,7 @@
     "id": "intermediate_module3",
     "name": "My Pokedex",
     "description": "Web en react que muestra una serie de pokemons",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "technologies": ["HTML", "CSS", "SASS", "React.JS"],
     "image": "./images/pokemon.png",
     "webURL": "https://martaluciasoler.github.io/pokemon-hazteConTodos/",
     "githubURL": "https://github.com/martaluciasoler/pokemon-hazteConTodos"
@@ -57,7 +57,7 @@
     "id": "final_module3",
     "name": "Rick and Morty",
     "description": "Web realizada con react y ambientada en Rick y Morty que consulta una API y permite realizar búsquedas eligiendo diferentes filtros.",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "technologies": ["HTML", "CSS", "SASS", "React.JS"],
     "image": "./images/rick.png",
     "webURL": "https://martaluciasoler.github.io/Rick-Morty/#/",
     "githubURL": "https://github.com/martaluciasoler/Rick-Morty"
@@ -66,7 +66,7 @@
     "id": "project3",
     "name": "Golden Cards",
     "description": "Proyecto con código heredado en JavaScript y refactorizado a react manteniendo las funcionalidades y añadiendo nuevas al original.",
-    "languajes": ["HTML", "CSS", "SASS", "React.JS"],
+    "technologies": ["HTML", "CSS", "SASS", "React.JS"],
     "image": "./images/golden.png",
     "webURL": "http://beta.adalab.es/project-promo-j-m-3-team-6/#/",
     "githubURL": "https://github.com/martaluciasoler/project-promo-j-m-3-team-6"

@@ -9,7 +9,7 @@ class ProjectList extends React.Component {
         <div className="listItem" key={project.id}>
           <Project
             name={project.name}
-            languajes={project.languajes}
+            technologies={project.technologies}
             description={project.description}
             images={project.image}
             webURL={project.webURL}
