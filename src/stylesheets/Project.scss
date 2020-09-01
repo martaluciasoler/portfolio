@@ -2,15 +2,12 @@
   text-decoration: none;
   width: 300px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
 
   .container {
     background-color: rgb(83, 82, 82);
     border-radius: 20px;
     padding: 10px;
+    height: 480px;
   }
 
   .marco {
@@ -19,6 +16,8 @@
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    height: 300px;
+    width: 300px;
   }
 
   &__image {
@@ -32,7 +31,6 @@
     &--real {
       width: 100%;
       border-radius: 20px;
-      margin-top: 20px;
       object-fit: contain;
     }
   }

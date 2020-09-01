@@ -2,29 +2,9 @@
   text-align: center;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   background: linear-gradient(to bottom, black, rgb(56, 54, 54));
+  width: 100%;
 }
 
 ul {
   list-style-type: none;
-}
-
-.tittle {
-  font-family: 'Caesar Dressing', cursive;
-  color: white;
-  font-size: 30px;
-  margin-top: 10px;
-}
-
-.span {
-  font-size: 50px;
-}
-.poke-item {
-  width: 250px;
-  height: 250px;
-}
-
-.pokes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }

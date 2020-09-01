@@ -20,7 +20,7 @@ class ProjectList extends React.Component {
     });
     return (
       <ul>
-        <li className="pokes">{result}</li>
+        <li className="projects">{result}</li>
       </ul>
     );
   }
