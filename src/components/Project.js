@@ -15,11 +15,15 @@ class Project extends React.Component {
             <a className="project__name" href={this.props.webURL}>
               {this.props.name}{' '}
             </a>
-            <img
-              className="project__image"
-              src={this.props.images}
-              alt={this.props.name}
-            />
+            <div className="project__image">
+              <a className="project__name" href={this.props.webURL}>
+                <img
+                  className="project__image--real"
+                  src={this.props.images}
+                  alt={this.props.name}
+                ></img>
+              </a>
+            </div>
           </div>
           <p>{this.props.description}</p>
           <div className="project__technologies">{technologiesList}</div>

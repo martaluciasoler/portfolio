@@ -1,7 +1,6 @@
 .project {
   text-decoration: none;
-  width: 250px;
-  padding: 30px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,19 +17,23 @@
     background-color: rgb(36, 35, 35);
     display: flex;
     border-radius: 20px;
-    padding: px;
     flex-direction: column;
+    align-items: center;
   }
 
   &__image {
-    height: 180px;
+    width: 200px;
     border-radius: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
 
     &:hover {
       transform: scale(1.03);
+    }
+    &--real {
+      width: 100%;
+      border-radius: 20px;
+      margin-top: 20px;
+      object-fit: contain;
     }
   }
   &__name {

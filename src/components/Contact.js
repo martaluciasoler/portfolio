@@ -13,10 +13,18 @@ class Contact extends React.Component {
     });
     return (
       <ul>
-        <div>
-          <li className="contactContainer">
-            {contactResult} <a name="contacto"></a>
+        <div className="contactContainer">
+          <li className="contactContainer__list">
+            {contactResult}
+            <a name="Contacto"></a>
           </li>
+          <a
+            href="#Aloha"
+            tittle={this.props.tittle}
+            className="contactContainer__aloha"
+          >
+            Aloha
+          </a>
         </div>
       </ul>
     );
