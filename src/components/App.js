@@ -12,9 +12,9 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <main>
-          <h2 className="tittle">
-            PROYECTOS <a name="Proyectos"></a>
-          </h2>
+          <a className="tittle" name="Proyectos">
+            Proyectos
+          </a>
           <ProjectList projects={projects} />
           <Contact infoContact={infoContact} />
         </main>

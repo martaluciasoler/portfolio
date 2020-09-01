@@ -7,7 +7,11 @@ class Icon extends React.Component {
       <li>
         <div className="contact">
           <a href={this.props.href} tittle={this.props.tittle}>
-            <img className="contact__img" src={this.props.icon} />
+            <img
+              className="contact__img"
+              src={this.props.icon}
+              alt="contactame"
+            ></img>
           </a>
         </div>
       </li>

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../stylesheets/Header.scss';
 import ilustracion from '../data/ilustracion/ilustracion.png';
-import mano from '../data/ilustracion/mano.png';
 
 class Header extends React.Component {
   render() {
@@ -18,9 +17,8 @@ class Header extends React.Component {
             </div>
             <div class="content">
               <div class="content__container">
-                <p class="content__container__text">
-                  Aloha <a name="Aloha"></a>
-                </p>
+                <a name="Aloha" id="aloha"></a>
+                <p class="content__container__text">Aloha</p>
 
                 <ul class="content__container__list">
                   <li class="content__container__list__item">everybody</li>
