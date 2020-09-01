@@ -12,9 +12,6 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <main>
-          <a className="tittle" name="Proyectos">
-            Proyectos
-          </a>
           <ProjectList projects={projects} />
           <Contact infoContact={infoContact} />
         </main>

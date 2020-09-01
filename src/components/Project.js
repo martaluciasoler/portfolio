@@ -12,6 +12,7 @@ class Project extends React.Component {
       <li className="project">
         <div className="container">
           <div className="marco">
+            <a className="tittle" name="Proyectos"></a>
             <a className="project__name" href={this.props.webURL}>
               {this.props.name}{' '}
             </a>
