@@ -8,6 +8,7 @@ class Header extends React.Component {
       <header>
         <div className="bio">
           <div className="bio__container">
+            <a name="Aloha" id="aloha"></a>
             <div>
               <img
                 className="ilustracion"
@@ -17,7 +18,6 @@ class Header extends React.Component {
             </div>
             <div class="content">
               <div class="content__container">
-                <a name="Aloha" id="aloha"></a>
                 <p class="content__container__text">Aloha</p>
 
                 <ul class="content__container__list">
