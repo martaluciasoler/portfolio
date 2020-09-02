@@ -9,12 +9,11 @@
   align-items: center;
   padding: 50px;
   justify-content: center;
-  max-height: calc(100vh - 132px);
   background-color: rgb(37, 36, 36);
   background-blend-mode: lighten, luminosity;
   .ilustracion {
     margin: 0;
-    width: 400px;
+    width: 350px;
   }
 
   &__container {
