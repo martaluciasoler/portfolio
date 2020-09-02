@@ -12,6 +12,10 @@
   max-height: calc(100vh - 132px);
   background-color: rgb(37, 36, 36);
   background-blend-mode: lighten, luminosity;
+  .ilustracion {
+    margin: 0;
+    width: 400px;
+  }
 
   &__container {
     margin-top: 30px;
@@ -59,9 +63,6 @@
   &__contactoInfo {
     font-family: 'Caesar Dressing', cursive;
     color: $color-links;
-  }
-  .ilustracion {
-    margin-top: 50px;
   }
 }
 
