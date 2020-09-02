@@ -1,4 +1,4 @@
-// HOJA DE ESTILO PARA EL COMPONENTE MADRE
+@import './core/variables.scss';
 .listItem {
   display: flex;
   justify-content: center;
@@ -11,4 +11,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.tittle {
+  color: transparent;
+  font-family: 'Caesar Dressing', cursive;
 }

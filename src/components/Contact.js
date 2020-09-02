@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Icon from './Icon';
 import '../stylesheets/Contact.scss';
 
@@ -12,21 +13,16 @@ class Contact extends React.Component {
       );
     });
     return (
-      <ul>
-        <div className="contactContainer">
-          <li className="contactContainer__list">
-            {contactResult}
-            <a name="Contacto"></a>
-          </li>
-          <a
-            href="#Aloha"
-            tittle={this.props.tittle}
-            className="contactContainer__aloha"
-          >
-            Aloha
-          </a>
-        </div>
-      </ul>
+      <div className="contactContainer">
+        <li className="contactContainer__list">{contactResult}</li>
+        <Link
+          to={'/'}
+          tittle={this.props.tittle}
+          className="contactContainer__aloha"
+        >
+          Aloha
+        </Link>
+      </div>
     );
   }
 }

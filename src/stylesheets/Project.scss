@@ -10,6 +10,7 @@
     height: 480px;
   }
 
+  @import './core/variables.scss';
   .marco {
     background-color: rgb(36, 35, 35);
     display: flex;
@@ -35,13 +36,13 @@
     }
   }
   &__name {
-    color: rgb(59, 220, 128);
-    font-family: 'Caesar Dressing', cursive;
+    color: $color-links;
+    font-family: $font-primary;
     font-size: 20px;
     margin-top: 10px;
   }
   &__github {
-    color: rgb(59, 220, 128);
+    color: $color-links;
   }
   &__technologies {
     color: rgb(223, 251, 97);

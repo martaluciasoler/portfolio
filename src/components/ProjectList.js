@@ -19,9 +19,12 @@ class ProjectList extends React.Component {
       );
     });
     return (
-      <ul>
-        <li className="projects">{result}</li>
-      </ul>
+      <React.Fragment>
+        <h2 className="tittle">Proyectos</h2>
+        <ul>
+          <li className="projects">{result}</li>
+        </ul>
+      </React.Fragment>
     );
   }
 }

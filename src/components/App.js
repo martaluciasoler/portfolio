@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import Header from './Header';
 import projects from '../data/projects.json';
 import infoContact from '../data/infoContact.json';
@@ -10,13 +11,17 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
         <main>
-          <a name="Proyectos"></a>
-          <h2 className="tittle">Proyectos</h2>
-          <ProjectList projects={projects} />
-          <Contact infoContact={infoContact} />
+          <Switch>
+            <Route exact path="/">
+              <Header />
+            </Route>
+            <Route path="/projects">
+              <ProjectList projects={projects} />
+            </Route>
+          </Switch>
         </main>
+        <Contact infoContact={infoContact} />
       </div>
     );
   }

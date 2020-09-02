@@ -1,13 +1,8 @@
+@import './core/reset.scss';
+@import './core/variables.scss';
 .App {
   text-align: center;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: $font-secondary;
   background: linear-gradient(to bottom, black, rgb(56, 54, 54));
   width: 100%;
-}
-.tittle {
-  color: white;
-  font-family: 'Caesar Dressing', cursive;
-}
-ul {
-  list-style-type: none;
 }

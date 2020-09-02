@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../stylesheets/Header.scss';
 import ilustracion from '../data/ilustracion/ilustracion.png';
 
@@ -8,7 +9,6 @@ class Header extends React.Component {
       <header>
         <div className="bio">
           <div className="bio__container">
-            <a name="Aloha" id="aloha"></a>
             <div>
               <img
                 className="ilustracion"
@@ -37,23 +37,23 @@ class Header extends React.Component {
                 Venida del mundo de la farándula donde escribía y representaba
                 obras para hacer sentir vivos a los demás, he aterrizado en el
                 planeta del desarrollo front-end, vengo equipada con un cinturón
-                lleno de herramientas que me permitirán crer, montar y desmontar
-                cada proyecto desde cero, por suerte de mi planeta anterior
-                (arteDramático, ilustración y diseño) traigo un estuche lleno de
-                pinceles con paletas de mil colores con los que podré dar vida y
-                una personalidad propia a cada uno de ellos. Soy una persona
-                noble, leal, responsable, trabajadora, creativa y por lo que
-                dicen mis compañeros bastante divertida con la que podrás
-                compartir alegrías e ilusión.Ayudame a escribir mi propia
-                historia.
+                lleno de herramientas que me permitirán crear, montar y
+                desmontar cada proyecto desde cero, por suerte de mi planeta
+                anterior (arteDramático, ilustración y diseño) traigo un estuche
+                lleno de pinceles con paletas de mil colores con los que podré
+                dar vida y una personalidad propia a cada uno de ellos. Soy una
+                persona noble, leal, responsable, trabajadora, creativa y
+                divertida con la que podrás compartir alegrías e ilusión.
+                <p className="bio__p">Ayudame a escribir mi propia historia.</p>
               </p>
               <div className="bio__scrool">
-                <a href="#Proyectos" tittle={this.props.tittle} className="a">
+                <Link
+                  to={'/projects'}
+                  tittle={this.props.tittle}
+                  className="link"
+                >
                   Proyectos
-                </a>
-                <a href="#Contacto" tittle={this.props.tittle} className="a">
-                  Contacto
-                </a>
+                </Link>
               </div>
             </div>
           </div>
