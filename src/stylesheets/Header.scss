@@ -15,6 +15,12 @@
     margin: 0;
     width: 350px;
   }
+  .front {
+    color: $color-links;
+  }
+  .art {
+    color: $color-links;
+  }
 
   &__container {
     margin-top: 30px;
@@ -46,7 +52,7 @@
     color: $color-links;
     padding: 40px;
     font-family: $font-primary;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   &__img {
@@ -63,47 +69,32 @@
     font-family: 'Caesar Dressing', cursive;
     color: $color-links;
   }
+  &__aloha {
+    font-family: $font-primary;
+    color: $color-links;
+    font-size: 30px;
+  }
+  &__name {
+    color: $color-text;
+    font-family: $font-primary;
+  }
 }
 
 .content {
-  position: absolute;
   transform: translate(-50%, -50%);
   overflow: hidden;
   font-family: 'Caesar Dressing', cursive;
   font-size: 35px;
   color: #ecf0f1;
-  margin-left: 410px;
+  position: absolute;
 
   &__container {
-    font-weight: 600;
-    overflow: hidden;
     height: 40px;
-    padding: 0 40px;
-
-    &:before {
-      content: '¡';
-      left: 0;
-    }
-
-    &:after {
-      content: '!';
-      position: absolute;
-      right: 0;
-    }
-
-    &:after,
-    &:before {
-      position: absolute;
-      top: 0;
-      color: $color-links;
-      font-size: 42px;
-      line-height: 40px;
-    }
-
+    margin-left: 800px;
     &__text {
-      display: inline;
-      float: left;
+      display: flex;
       margin: 0;
+      align-items: cente;
     }
 
     &__list {

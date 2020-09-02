@@ -21,7 +21,7 @@ class ProjectList extends React.Component {
     return (
       <React.Fragment>
         <h2 className="tittle">Proyectos</h2>
-        <ul>
+        <ul className="projectList__ul">
           <li className="projects">{result}</li>
         </ul>
       </React.Fragment>

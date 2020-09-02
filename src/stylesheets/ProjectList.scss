@@ -4,7 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1300px;
-  padding: 20px;
+  padding: 15px;
   grid-gap: 50px;
 }
 .projects {
@@ -15,4 +15,7 @@
 .tittle {
   color: transparent;
   font-family: 'Caesar Dressing', cursive;
+}
+.projectList__ul {
+  padding: 0%;
 }

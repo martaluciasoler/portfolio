@@ -16,34 +16,25 @@ class Header extends React.Component {
                 alt="Marta Soler"
               />
             </div>
-            <div class="content">
-              <div class="content__container">
-                <p class="content__container__text">Aloha</p>
-
-                <ul class="content__container__list">
-                  <li class="content__container__list__item">everybody</li>
-                  <li class="content__container__list__item">
-                    soy Marta Soler
-                  </li>
-                  <li class="content__container__list__item">front - end</li>
-                  <li class="content__container__list__item"> </li>
-                  <li class="content__container__list__item"> </li>
-                  <li class="content__container__list__item"> Developer</li>
-                </ul>
-              </div>
-            </div>
+            <span className="bio__aloha">Aloha</span>
+            <h1 className="bio__name">Soy Marta Soler</h1>
             <div className="bio__description">
               <p>
                 Venida del mundo de la farándula donde escribía y representaba
                 obras para hacer sentir vivos a los demás, he aterrizado en el
-                planeta del desarrollo front-end, vengo equipada con un cinturón
-                lleno de herramientas que me permitirán crear, montar y
-                desmontar cada proyecto desde cero, por suerte de mi planeta
-                anterior (arteDramático, ilustración y diseño) traigo un estuche
-                lleno de pinceles con paletas de mil colores con los que podré
-                dar vida y una personalidad propia a cada uno de ellos. Soy una
-                persona noble, leal, responsable, trabajadora, creativa y
-                divertida con la que podrás compartir alegrías e ilusión.
+                planeta del<span className="front"> desarrollo front-end</span>,
+                vengo equipada con un cinturón lleno de herramientas que me
+                permitirán crear, montar y desmontar cada proyecto desde cero,
+                por suerte de mi planeta anterior
+                <span className="art">
+                  {' '}
+                  (arteDramático, ilustración y diseño)
+                </span>
+                traigo un estuche lleno de pinceles con paletas de mil colores
+                con los que podré dar vida y una personalidad propia a cada uno
+                de ellos. Soy una persona noble, leal, responsable, trabajadora,
+                creativa y divertida con la que podrás compartir alegrías e
+                ilusión.
                 <p className="bio__p">Ayudame a escribir mi propia historia.</p>
               </p>
               <div className="bio__scrool">
