@@ -21,7 +21,7 @@
     "id": "project2",
     "name": "AdaVillains",
     "image": "./images/villains.png",
-    "description": "Web iteractica que permite la creación de tarjeta de visitas personalizadas ambientada en las villanas de Disney.",
+    "description": "Web interactiva que permite la creación de tarjeta de visitas personalizadas ambientada en las villanas de Disney.",
     "technologies": ["HTML", "CSS", "SASS", "JavaScript"],
     "webURL": "https://martaluciasoler.github.io/Adavillains/",
     "githubURL": "https://github.com/martaluciasoler/Adavillains"
