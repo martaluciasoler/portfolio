@@ -10,11 +10,21 @@ class Header extends React.Component {
         <div className="bio">
           <div className="bio__container">
             <div>
-              <img
-                className="ilustracion"
-                src={ilustracion}
-                alt="Marta Soler"
-              />
+              <div className="buttons">
+                <img
+                  className="ilustracion"
+                  src={ilustracion}
+                  alt="Marta Soler"
+                />
+                <Link
+                  to={'/projects'}
+                  tittle={this.props.tittle}
+                  className="link"
+                >
+                  <div className="brain"></div>
+                  <div className="heart"></div>
+                </Link>
+              </div>
             </div>
             <span className="bio__aloha">Aloha</span>
             <h1 className="bio__name">Soy Marta Soler</h1>

@@ -11,6 +11,31 @@
   justify-content: center;
   background-color: rgb(37, 36, 36);
   background-blend-mode: lighten, luminosity;
+  .buttons {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    .brain {
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 17px;
+      left: 134px;
+      padding-top: 45px;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+    .heart {
+      width: 83px;
+      height: 119px;
+      position: absolute;
+      bottom: 21px;
+      right: 113px;
+      padding: 0 83px 119px 0;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+  }
   .ilustracion {
     margin: 0;
     width: 350px;
@@ -50,7 +75,6 @@
   }
   .link {
     color: $color-links;
-    padding: 40px;
     font-family: $font-primary;
     font-size: 30px;
   }
