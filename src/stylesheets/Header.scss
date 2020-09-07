@@ -73,10 +73,13 @@
   &__p {
     margin: 0;
   }
-  .link {
+  .linkProject {
     color: $color-links;
     font-family: $font-primary;
-    font-size: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 5px;
   }
 
   &__img {

@@ -51,7 +51,7 @@ class Header extends React.Component {
                 <Link
                   to={'/projects'}
                   tittle={this.props.tittle}
-                  className="link"
+                  className="linkProject"
                 >
                   Proyectos
                 </Link>
